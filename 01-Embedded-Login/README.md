@@ -2,6 +2,8 @@
 
 This sample application demonstrates how to integrate Auth0 with Aurelia.
 
+Note that embedded login uses Cross Origin Authentication which [does not work well](https://auth0.com/docs/cross-origin-authentication#limitations-of-cross-origin-authentication) if you don't enable Custom Domains [Custom Domains](https://auth0.com/docs/custom-domains) which is a paid feature. 
+
 ## Getting Started
 
 You will need `jspm` to install some of the dependencies.
