@@ -2,9 +2,10 @@
   <div>
     <h4 if.bind="authenticated">
         You are logged in!
+        <a  click.delegate="auth.logout()" id="qsLogoutBtn">Log out</a>
     </h4>
     <h4 if.bind="!authenticated">
-      You are not logged in! Please <a click.delegate="auth.login()">Log In</a> to continue.
+      You are not logged in! Please <a click.delegate="auth.login()" id="qsLoginBtn" >Log In</a> to continue.
     </h4>
   </div>
 </template>
