@@ -59,7 +59,7 @@ jobs:
   01-login:
     machine: true
     environment:
-      - AUTH0_CFG: 01-Login/src/Auth/auth0-variables.js
+      - AUTH0_CFG: 01-Login/src/auth0-variables.js
       - SAMPLE_PATH: 01-Login
     <<: *defaults
 
