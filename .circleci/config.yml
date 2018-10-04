@@ -11,7 +11,7 @@ defaults: &defaults
       - run:
           name: Replace Auth0 test credentials
           command: |
-              echo "export const AUTH_CONFIG = {" >> $AUTH0_CFG
+            echo "export const AUTH_CONFIG = {" >> $AUTH0_CFG
             echo "  clientId: '$AUTH0_TEST_CLIENT_ID'," >> $AUTH0_CFG
             echo "  domain: '$AUTH0_TEST_DOMAIN'," >> $AUTH0_CFG
             echo "  callbackUrl: 'http://localhost:3000/callback'," >> $AUTH0_CFG
