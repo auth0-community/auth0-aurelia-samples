@@ -1,4 +1,4 @@
-# Auth0 Aurelia Samples
+# Login
 <img src="https://img.shields.io/badge/community-driven-brightgreen.svg"/> <br>
 
 This sample demonstrates how to add authentication to a Aurelia application with Auth0. The sample makes use of Auth0's hosted login page which provides centralized authentication.
