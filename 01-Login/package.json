@@ -96,7 +96,7 @@
     "url-loader": "0.5.8",
     "wait-on": "2.0.2",
     "webpack": "2.5.1",
-    "webpack-dev-server": "2.4.5"
+    "webpack-dev-server": "3.1.11"
   },
   "dependencies": {
     "EventEmitter": "^1.0.0",
@@ -115,9 +115,9 @@
     "aurelia-templating-router": "1.1.0",
     "auth0-js": "^9.0.2",
     "bluebird": "3.5.0",
-    "bootstrap": "~>4.1.2",
+    "bootstrap": "4.3.1",
     "font-awesome": "4.7.0",
     "isomorphic-fetch": "2.2.1",
-    "jquery": "3.2.1"
+    "jquery": "3.4.0"
   }
 }
